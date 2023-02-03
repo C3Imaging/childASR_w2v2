@@ -3,6 +3,7 @@
 ## Project Status
 This Github page is currently in development. Tasks outstanding include:
 - providing downloadable links to finetuned models through the Model IDs.
+- publishing Python scripts that reproduce the dataset cleaning procedure mentioned in the paper.
 
 ## Abstract
 
