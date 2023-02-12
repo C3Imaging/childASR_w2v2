@@ -1,8 +1,7 @@
 # A WAV2VEC2-BASED EXPERIMENTAL STUDY ON SELF-SUPERVISED LEARNING METHODS TO IMPROVE CHILD SPEECH RECOGNITION.
 
 ## Project Status
-This Github page is currently in development. Tasks outstanding include:
-- providing downloadable links to finetuned models through the Model IDs in the tables below.
+This Github page is currently in development. Tasks outstanding:
 - publishing Python scripts that reproduce the dataset cleaning procedure mentioned in the paper.
 
 ## Abstract
@@ -11,7 +10,7 @@ Despite recent advancements in deep learning technologies, Child Speech Recognit
 
 ## Table of Results with Checkpoints
 
-This repository provides trained checkpoints for finetuning across different child speech datasets for improving the performance on ASR for child speech.
+**NOTE:** All of the checkpoints for the models in the below tables can be downloaded according to their ID from the following link: https://huggingface.co/C3Imaging/childASR_w2v2/tree/main
 
 ### TABLE II: WER FOR DIFFERENT PRETRAINING (ADULT SPEECH DATASETS) AND FINETUNING (ADULT SPEECH DATASET) EXPERIMENTS ON THE MYST, PF-STAR, CMU KIDS AND LIBRITTS ‘DEV-CLEAN’ DATASETS.
 
