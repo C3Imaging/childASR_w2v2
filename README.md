@@ -8,6 +8,9 @@ This Github page is currently in development. Tasks outstanding:
 
 Despite recent advancements in deep learning technologies, Child Speech Recognition remains a challenging task. Current Automatic Speech Recognition (ASR) models require substantial amounts of annotated data for training, which is scarce. In this work, we explore using the ASR model, wav2vec2, with different pretraining and finetuning configurations for self-supervised learning (SSL) toward improving automatic child speech recognition. The pretrained wav2vec2 models were finetuned using different amounts of child speech training data, adult speech data, and a combination of both, to discover the optimum amount of data required to finetune the model for the task of child ASR. Our trained model achieves the best word error rate (WER) of 7.42 on the MyST child speech dataset, 2.99 on the PFSTAR dataset and 12.47 on the CMU KIDS dataset as compared to any other previous methods. Our models outperformed the wav2vec2 BASE 960 on child speech which is considered a state-of-the-art ASR model on adult speech by just using 10 hours of child speech data in finetuning. The analysis of different types of training data and their effect on inference is also provided by using a combination of datasets in pretraining, finetuning and inference.
 
+## Disclaimer
+We can only make the basic data cleaning scripts available here as the child audio datasets used in this paper are subject to licensing agreements. For access to respectively cleaner versions of datasets used in this paper, researchers can buy their own license for the original datasets (where required), and on providing proof of that license, can get access to our ‘clean’ versions upon request.
+
 ## Table of Results with Checkpoints
 
 **NOTE:** All of the checkpoints for the models in the below tables can be downloaded according to their ID from the following link: https://huggingface.co/C3Imaging/childASR_w2v2/tree/main
