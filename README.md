@@ -11,6 +11,8 @@ Despite recent advancements in deep learning technologies, Child Speech Recognit
 ## Disclaimer
 We can only make the basic data cleaning scripts available here as the child audio datasets used in this paper are subject to licensing agreements. For access to respectively cleaner versions of datasets used in this paper, researchers can buy their own license for the original datasets (where required), and on providing proof of that license, can get access to our ‘clean’ versions upon request.
 
+## Codebase
+The codebase used is replicable from the fairseq wav2vec2 implementation: https://github.com/facebookresearch/fairseq/blob/main/examples/wav2vec/README.md 
 ## Table of Results with Checkpoints
 
 **NOTE:** All of the checkpoints for the models in the below tables can be downloaded according to their ID from the following link: https://huggingface.co/C3Imaging/childASR_w2v2/tree/main
